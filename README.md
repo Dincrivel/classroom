@@ -18,4 +18,4 @@ Step-by-step of my studies in development area. Here I will upload my projects, 
 
 ##### Comments
 Hello, I'm **Diego Velasques**!
-Currently, I work in a different field, but I’m actively sharpening my skills to transition into software development—a dynamic and ever-evolving industry that thrives on innovation and problem-solving. Every day, I’m learning something new to turn this passion into my career. *I’ve set a personal deadline to make this career shift by April 2025, and every day, I’m pushing myself to turn this goal into reality.*
+Currently, I work in a different field, but I’m actively sharpening my skills to transition into software development—a dynamic and ever-evolving industry that thrives on innovation and problem-solving. Every day, I’m learning something new to turn this passion into my career. *I’ve set a personal deadline to make this career shift by April 2026, and every day, I’m pushing myself to turn this goal into reality.*
