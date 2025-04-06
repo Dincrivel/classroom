@@ -38,3 +38,12 @@ timer-- //timer = timer - 1
 timer--
 timer--
 console.log(timer)
+
+let price = 10
+price += 5 //price = price + 5
+price -= 10 //price = price - 10
+price *= 10 //price = price * 10
+console.log(price)
+
+let shopping = 2 * ((5 + 3) - 10) //setting priorites into the operation
+console.log(shopping)
