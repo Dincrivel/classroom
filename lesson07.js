@@ -26,3 +26,15 @@ console.log("division operation " + marketNote / 2)
 
 let calculus = 10 % 3
 console.log("the change is: " + calculus)
+
+let contador = 1
+console.log(contador)
+// '++' incremention
+contador++ //contador = contador + 1
+contador++
+
+//'--' decremention
+contador-- //contador = contador - 1
+contador--
+contador--
+console.log(contador)
