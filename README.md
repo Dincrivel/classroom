@@ -1,5 +1,5 @@
 # 🧐 Classroom
-Step-by-step of my studies in development area. Here I will upload my projects, achiviements and any lessons that I take in many classes, sites and etc
+Step-by-step of my studies in development area. Here I will upload my projects, achiviements and any lessons that I take in any classes, sites and etc
 
 ## 📝Classes
 [![DIO](https://img.shields.io/badge/DIO-000?style=for-the-badge&logo=&logoColor=white)](https://www.dio.me/users/diego_velasques_36133)
