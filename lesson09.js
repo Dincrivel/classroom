@@ -1,7 +1,7 @@
 let fruit = "orange"
 let alcoholLevel = 0
 
-switch (fruit) { //switch is a more complex struture of if/if else/else switch(<variable>) will search the value and compare to the list of cases ahead of the code.
+switch (fruit) { //switch is a more complex structure of if/if else/else switch(<variable>) will search the value and compare to the list of cases ahead of the code.
     
     case "orange"://diferent cases can be interpolated to return the same result like in this estruture
     case "lemon":
