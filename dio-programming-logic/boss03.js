@@ -26,12 +26,12 @@
 //   guerreiro atacou usando espada
 
 class hero{
-    constructor(name, age, type, move){
+    constructor(name, age, type){
         this.name = name
         this.age = age
         this.type = type
-        this.move = move
-
+        this.move = ""
+        
         switch (type) {
             case "ninja":
                 this.move = "shuriken"
@@ -48,6 +48,7 @@ class hero{
             default:
                 this.move = "unknown attack"
         }
+
     }
 
     attack(){
