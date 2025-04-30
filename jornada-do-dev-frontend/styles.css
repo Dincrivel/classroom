@@ -1,0 +1,11 @@
+.navigation{
+    color: rgb(0, 255, 136);
+    display: inline;
+} /* Comentary */
+.pageName{
+    color: brown;
+    min-width: auto;
+    min-height: auto;
+    max-height: auto;
+    font-size: 50px;
+}
