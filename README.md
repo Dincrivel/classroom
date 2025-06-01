@@ -11,7 +11,7 @@ Step-by-step of my studies in development area. Here I will upload my projects, 
 
 | Frontend Roadmap       | Status      |
 |------------------------|-------------|
-| HTML/CSS               | ⏳ In Progress|
+| HTML/CSS Basics        | ⏳ In Progress|
 | JavaScript Basics      | ⏳ In Progress |
 | React                  | ❌ Pending  |
 [Full Roadmap](https://roadmap.sh/frontend)
