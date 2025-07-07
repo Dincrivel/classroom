@@ -1,0 +1,73 @@
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: #ccc;
+    margin-top: 0px;
+}
+header{
+    border: 1px solid #000000;
+    border-top: 0px;
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    margin-bottom: 5px;
+}
+svg{
+    width: 60px;
+    height: 60px;
+}
+main{
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: "sidebar content index";
+    padding-left: 1rem auto;
+    padding-right: 1rem auto;
+}
+.sidebar{
+    
+    grid-area: sidebar;
+    border-right: 1px solid #000000;
+    padding-right: min(1rem);
+    padding-left:1rem;
+}
+.index{
+    grid-area: index;
+    border-left: 1px solid #000000;
+    padding-left: min(1rem);
+    padding-right: min(1rem);
+}
+ul{
+    list-style: none;
+    padding: 5px
+}
+ul.ulDisc{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+footer{
+    font-size: 15px;
+    margin-top: 10px;
+    min-height: 100px;
+    border-top: 1px solid #000000;
+}
+figure{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+q{
+    font-style: italic;
+    color: #6d3232;
+}
