@@ -1,18 +1,35 @@
 body{
     font-family: 'Jost', sans-serif;
-    background-color: #ccc;
+    background-color: #2e2424;
     margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
 }
-header{
+header {
+    position: fixed; /* Fixa o header no topo */
+    top: 0;          /* Alinha ao topo da viewport */
+    left: 0;         /* Alinha à esquerda */
+    right: 0;        /* Alinha à direita */
+    width: 95%;     /* Ocupa toda a largura */
+    z-index: 1000;   /* Garante que fique acima de outros elementos */
+    height: 80px; /* Define uma altura fixa */
     border: 1px solid #000000;
     border-top: 0px;
     text-align: center;
     background-color: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin-left:0 auto;
-    margin-right:0 auto;
     margin-bottom: 5px;
+    background-color: #6d3232;
+    /* Adicione padding se necessário */
+    padding: 10px 0;
+    
+    /* Box-sizing para incluir bordas no cálculo da largura */
+    box-sizing: border-box;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 svg{
     width: 60px;
@@ -29,6 +46,7 @@ main{
     grid-template-areas: "sidebar content index";
     padding-left: 1rem auto;
     padding-right: 1rem auto;
+    margin-top: 120px; /* Ajuste este valor conforme a altura do seu header */
 }
 .sidebar{
     
@@ -53,13 +71,18 @@ ul.ulDisc{
 }
 a{
     text-decoration: none;
-    color: blue;
+    color: rgb(38, 0, 0);
 }
 footer{
     font-size: 15px;
     margin-top: 10px;
     min-height: 100px;
     border-top: 1px solid #000000;
+    color: aliceblue;
+}
+#sources a{
+    font-size: 12px;
+    color: #ffffff;
 }
 figure{
     text-align: center;
